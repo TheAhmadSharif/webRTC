@@ -1,0 +1,17 @@
+{
+  "name": "webrtc",
+  "version": "1.0.0",
+  "description": "webRTC",
+  "main": "main.js",
+  "scripts": {
+    "start": "http-server -a localhost -p 8800 -c-1"
+  },
+  "keywords": [
+    "rtc"
+  ],
+  "author": "Ahmad",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}
