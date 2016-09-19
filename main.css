@@ -1,8 +1,7 @@
 body {
-font-family: 'Roboto', sans-serif;
-margin: 0;
-padding: 1em;
-word-break: break-word;
+  font-family: sans-serif;
+  margin: 0;
+  color: #333;
 }
 
 * {
@@ -18,8 +17,6 @@ ul > li {
 }
 canvas {
   background-color: #ccc;
-  max-width: 100%;
-  width: 100%;
 }
 
 video {
@@ -30,6 +27,7 @@ video {
 .container {
   width: 900px;
   margin: auto;
+  margin-top: 40px;
 }
 
 nav {
@@ -41,3 +39,21 @@ nav a {
   text-decoration: underline;
 }
 
+
+button {
+  padding: 5px 10px;
+  background: #FFF;
+  border: 1px solid #999;
+  cursor: pointer;
+}
+
+/*  Screen  */
+.video {
+  float: left;
+  width: 120px;
+}
+.frame {
+  float: right;
+  width: 200px;
+  height: 160px;
+}
